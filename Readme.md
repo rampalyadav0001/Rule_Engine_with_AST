@@ -25,6 +25,9 @@ This application functions as a rule engine that assesses user eligibility based
 - **Display Rule:** It display all the rule created along with tree.
 ![alt text](image-3.png)
 
+## DEMO
+<video controls src="Recording 2024-10-22 004936.mp4" title="Title"></video>
+
 ## Tech Stack
 
 - **Backend:** Built with Node.js and Express.js
@@ -78,6 +81,12 @@ This application functions as a rule engine that assesses user eligibility based
    - **Endpoint:** `/api/rules/combine_rules`
    - **Method:** POST
    - **Request Body:**
+    ```json
+     {
+       "rules": ["Rule-7", "Rule-3"], 
+        "op": "AND"
+     }
+     ```
    - **Response:**
    ![alt text](image-5.png)
 
@@ -89,13 +98,8 @@ This application functions as a rule engine that assesses user eligibility based
    - **Request Body:**
      ```json
      {
-       "rule": { ... },
-       "data": {
-         "age": 35,
-         "department": "Sales",
-         "salary": 60000,
-         "experience": 3
-       }
+       "ast":"Rule-3",
+         "data": {"age": 35"department":"Sales", "salary": 60000, "experience": 3}
      }
      ```
    - **Response:**
