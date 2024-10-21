@@ -112,3 +112,8 @@ This application functions as a rule engine that assesses user eligibility based
 ## Running Tests
 
 You can implement and execute tests to verify that everything is functioning as expected.
+
+## Contact
+
+- Name- Rampal Yadav
+- Email- rampalyadav23082001@gmail.com
