@@ -44,20 +44,33 @@ This application functions as a rule engine that assesses user eligibility based
 1. **Clone the Repository**
    ```bash
    git clone "https://github.com/rampalyadav0001/Rule_Engine_with_AST.git"
-   ```
-2. **Install the Backend Dependencies**
+ 
+  ```
+2. **Navigate to backend and Install the Backend Dependencies**
    ```bash
    npm install
    ```
-2. **Create a .env file and add ur Mongo_url**
+3. **Create a .env file **
    ```bash
- PORT=
-MONGODB_URI=""
-CORS_ORIGIN=
+     PORT=
+     MONGODB_URI=""
+     CORS_ORIGIN=
    ```
 4. **Launch the Server**
    ```bash
-   npm start
+   npm run dev
+   ```
+5. ** Navigate to Frontend and Install Frontend Dependencies**
+ ```bash
+   npm install
+   ```
+6. **Create a .env file **
+   ```bash
+    VITE_BASE_URL=""
+   ```
+7. **Launch the Server**
+   ```bash
+   npm run dev
    ```
 
 ## API Endpoints
