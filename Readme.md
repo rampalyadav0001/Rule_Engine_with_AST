@@ -29,7 +29,7 @@ This application functions as a rule engine that assesses user eligibility based
 <video controls src="Recording 2024-10-22 004936.mp4" title="Title"></video>
 
 ## Tech Stack
-
+- **Frontend:** Build with React.js and Tailwind css
 - **Backend:** Built with Node.js and Express.js
 - **Database:** Utilizes MongoDB
 
