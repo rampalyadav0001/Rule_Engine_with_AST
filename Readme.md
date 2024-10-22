@@ -51,7 +51,9 @@ This application functions as a rule engine that assesses user eligibility based
    ```
 2. **Create a .env file and add ur Mongo_url**
    ```bash
-   MONGO_URL=""
+ PORT=
+MONGODB_URI=""
+CORS_ORIGIN=
    ```
 4. **Launch the Server**
    ```bash
