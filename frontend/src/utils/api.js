@@ -1,8 +1,8 @@
 // src/utils/api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/rule'; // Update with your backend URL
-
+// const API_URL = 'http://localhost:8000/api/rule'; // Update with your backend URL
+const API_URL=`${import.meta.env.VITE_BASE_URL}/api/rule`;
 export const createRule = async (ruleName, ruleString) => {
   try {
     const response = await axios.post(`${API_URL}/create_rule`, {
